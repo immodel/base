@@ -2,7 +2,7 @@ module.exports = function(model, replace) {
   replace = replace || {};
   
   // Write it all out so that it works with browserify
-  return model = model
+  return model
     .use(replace.types || require('immodel-types'))
     .use(replace['getter-setter'] || require('immodel-getter-setter'))
     .use(replace.cast || require('immodel-cast'))
