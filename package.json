@@ -30,13 +30,11 @@
     "immodel-discriminators": "immodel/discriminators",
     "immodel-enum": "immodel/enum",
     "immodel-getter-setter": "immodel/getter-setter",
+    "immodel-hooks": "git://github.com/immodel/hooks",
     "immodel-methods": "immodel/methods",
     "immodel-primitives": "immodel/primitives",
     "immodel-required": "immodel/required",
     "immodel-types": "immodel/types",
     "immodel-validation": "immodel/validation"
-  },
-  "devDependencies": {
-    "immodel-hooks": "git://github.com/immodel/hooks"
   }
 }
