@@ -4,6 +4,7 @@ module.exports = function(replace) {
   // Write it all out so that it works with browserify
   return this
     .use(replace.types || require('immodel-types'))
+    .use(replace.hooks || require('immodel-hooks'))
     .use(replace['getter-setter'] || require('immodel-getter-setter'))
     .use(replace.cast || require('immodel-cast'))
     .use(replace.methods || require('immodel-methods'))

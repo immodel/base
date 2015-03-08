@@ -35,5 +35,8 @@
     "immodel-required": "^0.1.0",
     "immodel-types": "^0.1.0",
     "immodel-validation": "^0.1.2"
+  },
+  "devDependencies": {
+    "immodel-hooks": "git://github.com/immodel/hooks"
   }
 }
