@@ -1,6 +1,6 @@
 {
   "name": "immodel-base",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Collection of plugins that add basic model functionality to immodel.",
   "main": "index.js",
   "scripts": {
