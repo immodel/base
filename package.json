@@ -24,17 +24,17 @@
   },
   "homepage": "https://github.com/immodel/base",
   "dependencies": {
-    "immodel-attrs": "0.0.1",
-    "immodel-cast": "^0.1.0",
-    "immodel-defaults": "^0.1.0",
-    "immodel-discriminators": "^0.1.1",
-    "immodel-enum": "git://github.com/immodel/enum",
-    "immodel-getter-setter": "^0.1.0",
-    "immodel-methods": "^0.1.0",
-    "immodel-primitives": "^0.1.2",
-    "immodel-required": "^0.1.0",
-    "immodel-types": "^0.1.0",
-    "immodel-validation": "^0.1.2"
+    "immodel-attrs": "immodel/attrs",
+    "immodel-cast": "immodel/cast",
+    "immodel-defaults": "immodel/defaults",
+    "immodel-discriminators": "immodel/discriminators",
+    "immodel-enum": "immodel/enum",
+    "immodel-getter-setter": "immodel/getter-setter",
+    "immodel-methods": "immodel/methods",
+    "immodel-primitives": "immodel/primitives",
+    "immodel-required": "immodel/required",
+    "immodel-types": "immodel/types",
+    "immodel-validation": "immodel/validation"
   },
   "devDependencies": {
     "immodel-hooks": "git://github.com/immodel/hooks"
