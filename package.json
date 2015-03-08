@@ -28,6 +28,7 @@
     "immodel-cast": "^0.1.0",
     "immodel-defaults": "^0.1.0",
     "immodel-discriminators": "^0.1.1",
+    "immodel-enum": "git://github.com/immodel/enum",
     "immodel-getter-setter": "^0.1.0",
     "immodel-methods": "^0.1.0",
     "immodel-primitives": "^0.1.2",

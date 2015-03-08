@@ -12,5 +12,6 @@ module.exports = function(model, replace) {
     .use(replace.required || require('immodel-required'))
     .use(replace.defaults || require('immodel-defaults'))
     .use(replace.discriminators || require('immodel-discriminators'))
-    .use(replace.primitives || require('immodel-primitives'));
+    .use(replace.primitives || require('immodel-primitives'))
+    .use(replace.enum || require('immodel-enum'));
 };
