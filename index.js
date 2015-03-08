@@ -1,8 +1,8 @@
-module.exports = function(model, replace) {
+module.exports = function(replace) {
   replace = replace || {};
-  
+
   // Write it all out so that it works with browserify
-  return model
+  return this
     .use(replace.types || require('immodel-types'))
     .use(replace['getter-setter'] || require('immodel-getter-setter'))
     .use(replace.cast || require('immodel-cast'))
@@ -10,8 +10,8 @@ module.exports = function(model, replace) {
     .use(replace.attrs || require('immodel-attrs'))
     .use(replace.validation || require('immodel-validation'))
     .use(replace.required || require('immodel-required'))
+    .use(replace.enum || require('immodel-enum'))
     .use(replace.defaults || require('immodel-defaults'))
     .use(replace.discriminators || require('immodel-discriminators'))
-    .use(replace.primitives || require('immodel-primitives'))
-    .use(replace.enum || require('immodel-enum'));
+    .use(replace.primitives || require('immodel-primitives'));
 };
