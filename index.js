@@ -6,13 +6,13 @@ module.exports = function(replace) {
     .use(replace.types || require('immodel-types'))
     .use(replace.hooks || require('immodel-hooks'))
     .use(replace['getter-setter'] || require('immodel-getter-setter'))
+    .use(replace.defaults || require('immodel-defaults'))
     .use(replace.cast || require('immodel-cast'))
     .use(replace.methods || require('immodel-methods'))
     .use(replace.attrs || require('immodel-attrs'))
     .use(replace.validation || require('immodel-validation'))
     .use(replace.required || require('immodel-required'))
     .use(replace.enum || require('immodel-enum'))
-    .use(replace.defaults || require('immodel-defaults'))
     .use(replace.discriminators || require('immodel-discriminators'))
     .use(replace.primitives || require('immodel-primitives'));
 };
